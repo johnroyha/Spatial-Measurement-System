@@ -1,20 +1,3 @@
-/*  Time of Flight for 2DX4 -- Studio W8-1
-                Code written to support data collection from VL53L1X using the Ultra Light Driver.
-                I2C methods written based upon MSP432E4 Reference Manual Chapter 19.
-                Specific implementation was based upon format specified in VL53L1X.pdf pg19-21
-                Code organized according to en.STSW-IMG009\Example\Src\main.c
-                
-                The VL53L1X is run with default firmware settings.
-
-
-            Written by Tom Doyle
-            Updated by Seyed Hafez Abolfazl Mousavi Garmaroudi
-            Last Update: March 17, 2020
-*/
-
-//John Ha
-//400182107
-
 #include <stdint.h>
 #include "tm4c1294ncpdt.h"
 #include "vl53l1x_api.h"
